@@ -1,0 +1,23 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+.post_content{
+	margin: 40px 150px 0 150px;
+	padding-bottom: 30px;
+}
+.container {
+	display:block;
+	width: 100%;
+}
+#news .container img{
+	width: 650px;
+	height: 500px;	
+}
+#news .container h3{
+	padding-top: 50px;
+}
+footer {
+	bottom:-2000px;
+}
