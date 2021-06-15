@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#banner {
+	width: 100%;
+	height: 800px;
+}
+#banner img {
+	width: 100%;
+}
+.guidance{
+	width: 100%;
+	height: 50px;
+	background:white;
+	background-size: cover;
+	position: relative; 
+	clear: both;	
+}
+.guidance h2{
+	text-align: center;
+}
+
+#service .container ul.our-service{
+	list-style-type: none;
+}
+#service .container ul.our-service li{
+	float: left;
+	width: 320px;
+	margin-bottom: 20px;
+	margin-right:10px;
+}
+#service .container ul.our-service .banner img{
+	width: 100%;
+	height: 250px;
+}
+#member .container ul.our-service{
+	list-style-type: none;
+
+}
+#member .container ul.our-service li{
+	float: left;
+	width: 320px;
+	margin-bottom: 20px;
+	margin-right:10px;
+}
+#member .container ul.our-service .feature img{
+	width: 100%;
+	height: 250px;
+}
+#member .container ul.our-service .feature .btn{
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: #fcc80d;
+}
+#trainer{
+	width: 100%;
+}
+#trainer .container .feature{
+	float: left;
+}
+#trainer .container .feature .hlv{
+	float: left;
+	width: 480px;
+	height: 480px;
+	display: block;
+	margin-bottom: 20px;
+	margin-right:50px;
+}
+#trainer .container .feature .hlv img{
+	width: 100%;
+	height: 350px;
+}
+
+
