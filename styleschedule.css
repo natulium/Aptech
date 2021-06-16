@@ -1,0 +1,31 @@
+body{
+	color: black;
+}
+h6{
+	color: #6c757d;
+}
+.row{
+	display: flex;
+	
+}
+.col{
+	border: solid black 1px;
+	flex: 10%;
+	
+}
+.schedule-row{
+	display: flex;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+
+}
+.schedule{
+	border-bottom: solid black 2px;
+	padding-bottom: 10px;
+}
+.schedule-title p {
+	font-size:50px; 
+	font-family: arial;
+	padding-left: 20px;
+}
