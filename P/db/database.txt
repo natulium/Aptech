@@ -1,0 +1,66 @@
+create database project
+create table member (
+id int primary key auto_increment,
+name varchar(20) ,
+username varchar(50),
+password varchar(32),
+phone varchar(16),
+email varchar(100),
+address varchar(100),
+birthday date,
+gender varchar(20),
+membership_end date
+)
+create table trainers(
+id int primary key auto_increment,
+name varchar(50),
+phone varchar(16),
+email varchar(100),
+birthday date,
+gender varchar(20),
+sport varchar(20),
+experience varchar(20),
+note varchar(100)
+)
+create table class(
+id int primary key auto_increment,
+name varchar(20)
+)
+create table sports(
+id int primary key auto_increment,
+name varchar(50),
+type varchar(20),
+information text
+)
+create table gallery(
+id int primary key auto_increment,
+path varchar(500) not null ,
+upload_date datetime
+)
+create table feedback(
+id int primary key auto_increment,
+name varchar(50) ,
+email varchar(50),
+phone varchar(16),
+title varchar(100),
+message varchar(500),
+upload_date varchar(20)
+)
+create table class_Group(
+id_class int references Class (id),
+id_member int references Member (id)
+)
+
+create table schedules(
+id int primary key auto_increment,
+id_class int references Class (id),
+id_sport int references Sports(id),
+id_trainer int references Trainers(id),
+start_date date,
+end_date date,
+schedule_Day varchar(5),
+start_time time,
+end_time time
+)
+
+
