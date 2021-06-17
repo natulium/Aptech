@@ -1,0 +1,26 @@
+
+h6{
+	color: #6c757d;
+}
+.row{
+	display: flex;
+	
+}
+.col{
+	flex: 10%;
+	
+}
+
+
+.schedule-title p {
+	font-size:35px; 
+	font-family: sf-pro-display-black;
+	padding-left: 20px;
+}
+.div-schedule {
+    background: url(https://bizweb.dktcdn.net/100/021/944/files/fitness-la-gi-4.jpg?v=1556163267165)no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #ececec;
+}
