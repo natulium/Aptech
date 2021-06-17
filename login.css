@@ -2,8 +2,6 @@
 /* login form */
 form {
     position:relative;
-    top:200px;
-    bottom: 50px;
     border: 3px solid #f1f1f1;
   }
   
@@ -36,10 +34,6 @@ form {
   
   button:hover {
     opacity: 0.8;
-  }
-
-  .container {
-    padding: 16px;
   }
 
   @media screen and (max-width: 300px) {

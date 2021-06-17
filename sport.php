@@ -1,7 +1,13 @@
-<?php include_once('layouts/header.php')?>
-	<link rel="stylesheet" type="text/css" href="news.css">
-	<div class="container" style="position:relative; top:200px">
-				<h1 style="padding: 10px; color:black;">Môn thể thao</h1>
+<?php include_once('layouts/header.php');?>
+<div class="container-fluid" style ="paddding:0; margin-top:50px">
+	<div class="banner" >
+		<img src="https://cms.elitefitness.com.vn//wp-content/uploads/Living%20Elite/Kim%20L%C3%BD/banner_trong.jpg">
+	</div>
+	<div class="header-about">
+		<h1>Môn thể thao</h1>
+	</div>
+</div>
+	<div class="container">
 				<div class="row">
 				<div class="col-md-6">		
 				<img style="width:540px;height: 288px;" src="https://viypa.vn/wp-content/uploads/2018/11/yoga.3jpg-800x480.jpg">

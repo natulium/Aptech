@@ -1,15 +1,20 @@
-<?php include_once('layouts/header.php')?>
-	<link rel="stylesheet" type="text/css" href="news.css">
-    <div class="content" style="position:relative; top:200px">
-	<div id="printcontent">
+<?php include_once('layouts/header.php');?>
+<div class="container-fluid" style ="paddding:0; margin-top:50px">
+	<div class="banner" >
+		<img src="https://cms.elitefitness.com.vn//wp-content/uploads/Living%20Elite/Kim%20L%C3%BD/banner_trong.jpg">
+	</div>
+	<div class="header-about">
+		<h1>Tin tức thể thao</h1>
+	</div>
+</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-12" style="text-align: center;">
 						<p style="margin: 20px 0 20px">
-							<font style="vertical-align: inherit;">02/02/2021 bởi Elite</font>
+							<font style="vertical-align: inherit;">02/02/2021 bởi Ryan Sport</font>
 						</p>
 						<h1>
-<font style="vertical-align: inherit;"> Thông báo: Elite Fitness Hà Nội đã trở lại sau những ngày tu sửa</font>
+<font style="vertical-align: inherit;"> Thông báo: Ryan Sport Club Hà Nội đã trở lại sau những ngày tu sửa</font>
 						</h1>
 					</div>	
 				</div>				
@@ -33,15 +38,15 @@
 			<div class="post_content" style="margin: 40px 150px 0 150px;padding-top:500px;">
 				<p>
 				<span style="font-family:arial;font-size: 23px;">
-					<font style="vertical-align: inherit;">-Elite Fitness quay trở lại rồi các hội viên ơi!</font>
+					<font style="vertical-align: inherit;">-Ryan Sport Club quay trở lại rồi các hội viên ơi!</font>
 					<br>
-					<font style="vertical-align: inherit; color: #ffc107;">-Hãy đến và trải nghiệm cùng với Elite Fitness</font>
+					<font style="vertical-align: inherit; color: #ffc107;">-Hãy đến và trải nghiệm cùng với Ryan Sport Club</font>
 						<br>
-				<font style="vertical-align: inherit; ">+Elite Fitness sẽ có rất nhiều chương trình và sự kiện thú vị dành cho hội viên </font>
+				<font style="vertical-align: inherit; ">+Ryan Sport Club sẽ có rất nhiều chương trình và sự kiện thú vị dành cho hội viên </font>
 				<br>
-				<font style="vertical-align: inherit;">Với trang bị,nội thất được nâng cấp hoàn hảo Elite Fitness sẽ là nơi không thể bỏ qua dành cho các bạn </font>
+				<font style="vertical-align: inherit;">Với trang bị,nội thất được nâng cấp hoàn hảo Ryan Sport Club sẽ là nơi không thể bỏ qua dành cho các bạn </font>
 				<br>
-				<font style="vertical-align: inherit;">-Hãy nhanh chân đến với Elite Fitness ngay nào!</font>
+				<font style="vertical-align: inherit;">-Hãy nhanh chân đến với Ryan Sport Club ngay nào!</font>
 				</span>
 				</p>
 			</div>
@@ -58,6 +63,7 @@
 			
 		</div>
 	</div>
+	<div class="container">
 	<div class="row">
 		<div class="col-12 col-md-6">
 			<div class="blog">
@@ -66,7 +72,7 @@
 					<img style="width:540px;height: 288px; margin-left: 70px" src="https://cms.elitefitness.com.vn//wp-content/uploads/2018/B%C3%A0i%20web/Th%C3%A1ng%2010/10%20minute%20active/banner_baiviet.jpg">
 				</div>
 				<p>
-					<font style="vertical-align: inherit; color: black;padding-left: 20px;font-size:23px;">HOT: Tham gia cuộc thi để nhận ngay giải thưởng lớn với Elite Fitness</font>
+					<font style="vertical-align: inherit; color: black;padding-left: 20px;font-size:23px;">HOT: Tham gia cuộc thi để nhận ngay giải thưởng lớn với Ryan Sport Club</font>
 				</p>
 			</a>
 			</div>
@@ -84,5 +90,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 <?php include_once('layouts/footer.php')?>

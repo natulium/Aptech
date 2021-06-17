@@ -1,5 +1,12 @@
-<?php include_once('layouts/header.php');
-?>
+<?php include_once('layouts/header.php');?>
+<div class="container-fluid" style ="paddding:0; margin-top:50px">
+	<div class="banner" >
+		<img src="https://cms.elitefitness.com.vn//wp-content/uploads/Living%20Elite/Kim%20L%C3%BD/banner_trong.jpg">
+	</div>
+	<div class="header-about">
+		<h1>Đăng Nhập</h1>
+	</div>
+</div>
 <link rel="stylesheet" type="text/css" href="login.css">
 <div>
 <form action="#" method="post">
@@ -77,4 +84,3 @@ window.onclick = function(event) {
 <div>
 <?php include_once('layouts/footer.php');
 ?>
-</div>

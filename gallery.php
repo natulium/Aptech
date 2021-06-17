@@ -5,15 +5,14 @@ $pdo = pdo_connect_mysql();
 // MySQL query that selects all the images
 $stmt = $pdo->query('SELECT * FROM gallery ORDER BY uploaded_date DESC');
 $images = $stmt->fetchAll(PDO::FETCH_ASSOC);
-include_once('layouts/header.php');
 ?>
 <link rel="stylesheet" type="text/css" href="gallery.css">
-<div class="content home">
+<div>
 	<div class="images">
 		<?php foreach ($images as $image): ?>
 		<?php if (file_exists($image['path'])): ?>
-		<a href="#">
-			<img src="<?=$image['path']?>" data-id="<?=$image['id']?>"width="300" height="200">
+		<a href="#" class="col-12 col-md-4 gallery">
+			<img src="<?=$image['path']?>" data-id="<?=$image['id']?>">
 		</a>
 		<?php endif; ?>
 		<?php endforeach; ?>
@@ -33,7 +32,7 @@ document.querySelectorAll('.images a').forEach(img_link => {
 			// Create the pop out image
 			image_popup.innerHTML = `
 				<div class="con">
-					<img src="${img.src}" width="${img.width}" height="${img.height}">
+				<img src="${img.src}" width="854" height="480">
 				</div>
 			`;
 			image_popup.style.display = 'flex';

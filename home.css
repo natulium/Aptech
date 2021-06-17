@@ -1,59 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
-#banner {
+.container-fluid{
+	width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    font-family: sf-pro-display-bold;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.banner {
 	width: 100%;
 	height: 800px;
 }
-#banner img {
+div{ 
+	display:block;
+}
+.banner img {
 	width: 100%;
 }
-.guidance{
-	width: 100%;
-	height: 50px;
-	background:white;
-	background-size: cover;
-	position: relative; 
-	clear: both;	
-}
-.guidance h2{
+.header-about{
+	position: relative;
 	text-align: center;
 }
-
-#service .container ul.our-service{
-	list-style-type: none;
+.header-about h1{
+	color:#212529;
+	position: absolute;
+    bottom: 150px;
+    width: 100%;
 }
-#service .container ul.our-service li{
-	float: left;
-	width: 320px;
-	margin-bottom: 20px;
-	margin-right:10px;
+.description {
+    padding: 0 200px 0 200px;
 }
-#service .container ul.our-service .banner img{
+.underh1 {
+    background: #45b553;
+    width: 160px;
+    height: 4px;
+    margin: 20px 0 25px 55px;
+}
+.blog {
+    margin-top: 20px;
+}
+.div-image-new img{
+    width: 350px;
+	height:200px;
+}
+.gallery img{
+	margin-top:20px;
+    width: 350px;
+	height:200px;
+}
+.div-image-2 img{
+    width: 550px;
+	height:336px;
+}
+.blog .description{
+	text-align: center;
+	padding: 0 10px 0 10px;
+}
+.card-trainer p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.information ul li:before {
+    content: "";
+    background: #45b553;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: -1px;
+}
+.control-next {
+    left: 60px;
+}
+.control-next, .control-prev {
+    position: absolute;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+.contact-all{
 	width: 100%;
-	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-#member .container ul.our-service{
-	list-style-type: none;
-
+.contact-infor{
+	color: black;
+	max-width:500px;
+	line-height: 50px;
+	padding-left: 50px;
+	font-size: 18px;
 }
-#member .container ul.our-service li{
-	float: left;
-	width: 320px;
-	margin-bottom: 20px;
-	margin-right:10px;
+.contact-infor i{
+	margin-right: 20px;
+	font-size: 25px;
+	color: white;
+	display:flex;
 }
-#member .container ul.our-service .feature img{
-	width: 100%;
-	height: 250px;
+.contact-infor .social{
+	margin: 40px 40px;
+	display: flex;
 }
-#member .container ul.our-service .feature .btn{
+.contact-infor .social i{
+	font-family: 30px;
+	padding: 0px 10px;
+	
+}
+.contact-infor .social i:hover{
+	background: #b0a100;
 	color: #fff;
-	width: 150px;
+}
+.contact-form{
+	max-width: 600px;
+	margin-right: 50px;
+}
+.contact-infor, .contact-form{
+	flex: 1;
+}
+.contact-form .text-box{
+	
+	height: 50px;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	
+	color: #fff;
+}
+.contact-form textarea{
+	
+	color: #fff;
+
+	width: 100%;
+	padding: 12px;
+	font-size: 15px;
+	min-height: 170px;
+	max-height: 400px;
+	resize: vertical;
+	border-radius: 5px;
+}
+.contact-form .btn{
+	float: left;
+	color: #fff;
+	width: 120px;
 	height: 40px;
 	font-size: 15px;
 	font-weight: 600;
@@ -62,24 +185,6 @@
 	border-radius: 5px;
 	cursor: pointer;
 	background: #fcc80d;
-}
-#trainer{
-	width: 100%;
-}
-#trainer .container .feature{
-	float: left;
-}
-#trainer .container .feature .hlv{
-	float: left;
-	width: 480px;
-	height: 480px;
-	display: block;
-	margin-bottom: 20px;
-	margin-right:50px;
-}
-#trainer .container .feature .hlv img{
-	width: 100%;
-	height: 350px;
-}
 
+}
 

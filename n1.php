@@ -1,7 +1,14 @@
-<?php include_once('layouts/header.php')?>
-	<link rel="stylesheet" type="text/css" href="news.css">
-    <div class="content" style="position:relative; top:200px">
-	<div id="printcontent">
+<?php include_once('layouts/header.php');?>
+<div class="container-fluid" style ="paddding:0; margin-top:50px">
+	<div class="banner" >
+		<img src="https://cms.elitefitness.com.vn//wp-content/uploads/Living%20Elite/Kim%20L%C3%BD/banner_trong.jpg">
+	</div>
+	<div class="header-about">
+		<h1>Tin tức thể thao</h1>
+	</div>
+</div>
+	<div class="container">
+		<div class="row">
 			<div class="container" >
 				<div class="row">
 					<div class="col-12" style="text-align: center;">
