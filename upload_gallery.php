@@ -2,6 +2,7 @@
 require_once ('database/dbhelper.php');
 // The output message
 $msg = '';
+$_FILES['image'];
 if ($_FILES['image']) {
 	// The folder where the images will be stored
 	$target_dir = 'resource/img/';
@@ -27,15 +28,16 @@ if ($_FILES['image']) {
 		$msg = 'Please upload an image!';
 	}
 }
-include_once('layouts/header.php');
+
 ?>
-<link href="gallery.css" rel="stylesheet" type="text/css">
+<?=template_header('Gallery')?>
 <div class="content upload">
 	<h2>Upload Image</h2>
-	<form action="upload.php" method="post" enctype="multipart/form-data">
+	<form action="upload_gallery.php" method="post" enctype="multipart/form-data">
 		<label for="image">Choose Image</label>
 		<input type="file" name="image" accept="image/*" id="image">
 	    <input type="submit" value="Upload Image" name="submit">
 	</form>
 	<p><?=$msg?></p>
 </div>
+<?=template_footer()?>
